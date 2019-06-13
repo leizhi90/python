@@ -7,7 +7,8 @@
 """
 
 """
-GIL global interpreter lock（Cpython独有） 全局解释器锁 解释器层面上进行的，同一时刻只有一个线程在运行，其他线程都是挂起状态，在IO密集型的应用才有实际意义
+GIL global interpreter lock（Cpython独有） 全局解释器锁 解释器层面上进行的，
+同一时刻只有一个线程在运行，其他线程都是挂起状态，在IO密集型的应用才有实际意义
 """
 
 import threading

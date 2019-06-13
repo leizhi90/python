@@ -14,6 +14,7 @@ f(a=1,b=2)
 def box(length, width, height):
       print('盒子')
 box(5,4,3)
+
 # 关键字参数的优势
 #1、更好的可读性，
 #2、不用考虑形参定义时的顺序
@@ -35,6 +36,8 @@ print_star(3,char='@')
 def print_star2(line,*,char='*'):
       for i in range(line):
             print(char*5)
+
 print_star2(2)
+
 print_star2(3,char='&')
 print('ada','addfd')

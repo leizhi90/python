@@ -17,7 +17,6 @@ print (bool(5j),bool(0j))
 #字典 集合
 # 空为false
 
-
 #None 转换成 False
 print (bool(None))
 print (type(None))

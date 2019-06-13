@@ -8,6 +8,7 @@ def print_star(line,char):
       for i in range(line):
             print(char*5)
 print_star(5,'*')
+
 # python 定义函数时，可以为形参指定默认值，当调用函数时，如果没有
 #传递默认值，就用默认，如果有就传递实参
 def print_star2(line,char="*"):

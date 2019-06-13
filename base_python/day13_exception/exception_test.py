@@ -51,7 +51,10 @@ print('goto....')
 # 在循环中，通过break尝试跳过finally语句块。
 # 在方法中，执行return尝试跳过finally语句块。
 # 调用sys模块的exit方法，尝试跳过finally语句块。
-# 从而发现，finally语句块确实总是会得到执行。在try中使用break、return或其他可能会跳过finally语句体的语法时，程序会检测当前是否存在finally，如果存在，则会首先执行finally语句体，然后才能放心的跳出或结束程序。
+# 从而发现，finally语句块确实总是会得到执行。
+# 在try中使用break、return或其他可能会跳过finally语句体的语法时，
+# 程序会检测当前是否存在finally，如果存在，则会首先执行finally语句体，
+# 然后才能放心的跳出或结束程序。
 
 
 

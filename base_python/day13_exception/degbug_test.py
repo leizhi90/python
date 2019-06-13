@@ -9,6 +9,6 @@ import logging
 a = 2
 b = 0
 logging.basicConfig(level=logging.INFO)
-logging.info()
+logging.info('olos')
 #degbug
 #iea

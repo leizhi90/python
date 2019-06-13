@@ -11,6 +11,7 @@ def checkin_new(format):
              return result
         return inner
     return checkin_new_inner
+
 @checkin_new("%Y-%m-%d")
 def on_duty(name,age):
     """这是上班的函数

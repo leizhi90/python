@@ -8,6 +8,8 @@ def out():
       print(x)
    return inner
 print(out().__closure__)
+
+
 def on_duty(name):
    times = 0
    def inner():
@@ -45,6 +47,7 @@ def new_f(func):
 @new_f
 def du(name):
    print(name+'&&&&&&')
+
 new_f(du)('lz')
 du('lz')
 

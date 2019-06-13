@@ -69,10 +69,11 @@ info="""
 
 while True:
     print (info)
-    choice=iput("请输入选择")
+    choice=input("请输入选择")
 # 验证字典的copy方法。
 d={1:'a',2:'c'}
 d2=d.copy()#浅拷贝
 print (d2)
+
 #可变对象 深拷贝 对象
 # 不可变 的

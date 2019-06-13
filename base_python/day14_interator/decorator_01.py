@@ -5,7 +5,7 @@ def checkin_new(format):
         def inner(*args,**kwargs):
              print(datetime.now().strftime(format))
              result=func(*args,**kwargs)
-             #return result
+             return result
         return inner
     return checkin_new_inner
 @checkin_new("%Y-%m-%d")
